@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="UTF-8" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<h1> 바이</h1>
+
+<form th:action="@{/sentiment/review}" method="post">
+    <label>
+        <input type="text" name="textValue">
+    </label>
+    <input type="submit" value="클릭">
+</form>
+</body>
+</html>
